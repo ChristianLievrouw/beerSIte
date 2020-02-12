@@ -1,0 +1,59 @@
+* {
+    outline: 2px dotted blue;
+    margin: 0 auto;
+    padding: 0;
+}
+header li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+header ul {
+    float: right;
+    padding-top: 65px;
+    margin-right: 50px;
+    margin: 0px, 0px, 0px, 0px ;
+}
+header h1 {
+    float: left;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+main {
+    display: inline-block;
+    margin-bottom: 50px;
+    clear: both;
+}
+.floatright {
+    height: 100px;
+    width: 25%;
+    float: right;
+    margin-right: 40px;
+    margin-top: 25px;
+    font-size: large;
+}
+.floatrightpic {
+    float: right;
+    width: 70%;
+    margin-top: 2px;
+}
+.floatleftpic {
+    float: left; 
+    width: 70%;
+} 
+nav {
+    height: 100px;
+}
+.floatleft{
+    height: 100px;
+    width: 25%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: large;
+}
+main li {
+    display: inline;
+    margin-top: 100px;
+}
