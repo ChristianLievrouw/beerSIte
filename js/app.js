@@ -19,7 +19,7 @@ function yourBeer(){
 
 
 var howMany = function() {
-    var count = prompt('how many things do you want to order?');
+    var count = prompt('how many beers do you want to order?');
   
     while (count === '' || isNaN(count)) {
       count = prompt('please enter a number');
@@ -33,13 +33,13 @@ var howMany = function() {
     var order = prompt('what do you want to order?').toLowerCase;
     var item;
   
-    while (order !== 'house' && order !== 'hotel') {
-      order = prompt('please enter house or hotel');
+    while (order !== 'craft' && order !== 'imports') {
+      order = prompt('please enter craft or imports');
     }
   
-    if (order === 'hotel') {
-      item = '<img src="https://media-cdn.tripadvisor.com/media/photo-s/09/d8/0a/09/img-hotel.jpg">';
-    } else if (order === 'house') {
+    if (order === 'craft') {
+      item = '<img src="https://media-cdn.tripadvisor.com/media/photo-s/09/d8/0">';
+    } else if (order === 'imports') {
       item = '<img src="https://img.freepik.com/free-vector/colorful-houses-collection-flat-style_23-2147787131.jpg?size=338&ext=jpg">';
     }
   
