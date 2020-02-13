@@ -44,6 +44,7 @@ main {
 } 
 nav {
     height: 100px;
+    background-color: rgb(252, 161, 3);
 }
 .floatleft{
     height: 100px;
@@ -56,4 +57,7 @@ nav {
 main li {
     display: inline;
     margin-top: 100px;
+}
+footer {
+    background-color: rgb( 252, 161, 3);
 }
