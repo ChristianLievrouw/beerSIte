@@ -1,22 +1,10 @@
-console.log('This is connected and working');
-
-var yourAge = prompt('How old are you?');
-var greeting;
-if(yourAge > 21){
-    greeting = 'Welcome to Beer for you!!!';
+var userName = function(fName, mName, lName){
+    // var fName = prompt('What is your first name?');
+    // var mName = prompt('What is your middle name?');
+    // var lName = prompt('What is your last name?');
+    return fName + ' ' + mName + ' ' + lName;
 }
-else {
-    greeting = 'Please find us when you of age!!!'
-}
-console.log(greeting);
-document.write(greeting);
 
-var today = new Date();
-var geeting;
-
-document.write(greeting + 'Today is ' + today);
-
-
-
-
+    var newUserName = userName('Christain', 'Edward', 'Lievrouw');
+    console.log(newUserName);
 
