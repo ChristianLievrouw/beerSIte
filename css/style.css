@@ -24,19 +24,31 @@ main {
     display: inline-block;
     margin-bottom: 50px;
     clear: both;
+    background-color: #FFFEEC;
+}
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main ul {
+    display: inline-block;
+}
+main li img {
+     border-radius: 45%;
 }
 .floatright {
     height: 100px;
     width: 25%;
     float: right;
     margin-right: 40px;
-    margin-top: 25px;
+    margin-top: 75px;
     font-size: large;
 }
 .floatrightpic {
     float: right;
     width: 70%;
     margin-top: 2px;
+    height: 475px;
+    width: 1000px;
 }
 .floatleftpic {
     float: left; 
@@ -51,7 +63,7 @@ nav {
     width: 25%;
     float: left;
     margin-left: 40px;
-    margin-top: 25px;
+    margin-top: 75px;
     font-size: large;
 }
 main li {
